@@ -1,113 +1,64 @@
-import Image from 'next/image'
+import { Header } from "@/components/Header";
+import { Banner } from "@/components/Banner";
+import { ExclusiveItem } from "@/components/ExclusiveItem";
+
+import Image from "next/image";
+import { Script } from "@/components/Scripts";
+import { IntroVideo } from "@/components/IntroVideo";
+import { FoodMenu } from "@/components/FoodMenu";
+import { Owners } from "@/components/Owners";
+import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
+    <main>
+      <body>
+        {/*::header part start::*/}
+        <Header />
+        {/* Header part end*/}
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+        {/* banner part start*/}
+        <Banner />
+        {/* banner part end*/}
 
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+        {/*::exclusive_item_part start::*/}
+        <ExclusiveItem />
+        {/*::exclusive_item_part end::*/}
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+        {/* about part start*/}
+        {/* <section className="about_part"> <div className="container-fluid"> <div className="row align-items-center"> <div className="col-sm-4 col-lg-5 offset-lg-1"> <div className="about_image"> <img src="/image/about.jpg" alt="" /> </div> </div> <div className="col-sm-8 col-lg-4"> <div className="about_text"> <h5>Our History</h5> <h2>Where The Food’s As Good As The Root Beer.</h2> <h4>Satisfying people hunger for simple pleasures</h4> <p> May over was. Be signs two. Spirit. Brought said dry own firmament lesser best sixth deep abundantly bearing, him, gathering you blessed bearing he our position best ticket in month hole deep </p> <a href="#" className="btn_3" >Leia sobre <img src="/image/icon/left_2.svg" alt="" /></a> </div> </div> </div> </div> </section> */}
+        {/* about part end*/}
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
+        {/* intro_video_bg start*/}
+        <IntroVideo />
+        {/* intro_video_bg part start*/}
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+        {/* food_menu start*/}
+        <FoodMenu />
+        {/* food_menu part end*/}
+
+        {/*::chefs_part start::*/}
+        <Owners />
+        {/*::chefs_part end::*/}
+
+        {/*::regervation_part start::*/}
+        {/* <section className="regervation_part section_padding"> <div className="container"> <div className="row"> <div className="col-xl-5"> <div className="section_tittle"> <p>Reservation</p> <h2>Book A Table</h2> </div> </div> </div> <div className="row"> <div className="col-lg-6"> <div className="regervation_part_iner"> <form> <div className="form-row"> <div className="form-group col-md-6"> <input type="email" className="form-control" id="inputEmail4" placeholder="Name *" /> </div> <div className="form-group col-md-6"> <input type="password" className="form-control" id="inputPassword4" placeholder="Email address *" /> </div> <div className="form-group col-md-6"> <select className="form-control" id="Select"> <option value="1" selected>Persons *</option> <option value="2">Number of guests 1</option> <option value="3">Number of guests 2</option> <option value="4">Number of guests 3</option> <option value="5">Number of guests 4</option> </select> </div> <div className="form-group col-md-6"> <input type="text" className="form-control" id="pnone" placeholder="Phone number *" /> </div> <div className="form-group col-md-6"> <div className="input-group date"> <input id="datepicker" type="text" className="form-control" placeholder="Date *" /> </div> </div> <div className="form-group col-md-6"> <select className="form-control" id="Select2"> <option value="" selected>Time *</option> <option value="1">8 AM TO 10AM</option> <option value="1">10 AM TO 12PM</option> <option value="1">12PM TO 2PM</option> <option value="1">2PM TO 4PM</option> <option value="1">4PM TO 6PM</option> <option value="1">6PM TO 8PM</option> <option value="1">4PM TO 10PM</option> <option value="1">10PM TO 12PM</option> </select> </div> <div className="form-group col-md-12"> <textarea className="form-control" id="Textarea" rows="4" placeholder="Your Note *" ></textarea> </div> </div> <div className="regerv_btn"> <a href="#" className="btn_4">Book A Table</a> </div> </form> </div> </div> </div> </div> </section> */}
+        {/*::regervation_part end::*/}
+
+        {/*::review_part start::*/}
+        {/* <section className="review_part gray_bg section_padding"> <div className="container"> <div className="row"> <div className="col-xl-5"> <div className="section_tittle"> <p>Testimonials</p> <h2>Customers Feedback</h2> </div> </div> </div> <div className="row"> <div className="col-lg-11"> <div className="client_review_part owl-carousel"> <div className="client_review_single media"> <div className="client_image align-self-center"> <img src="/image/client/client_1.png" alt="" /> </div> <div className="client_review_text media-body"> <p> Also made from. Give may saying meat there from heaven it lights face had is gathered god dea earth light for life may itself shall whales made they're blessed whales also made from give may saying meat. There from heaven it lights face had amazing place </p> <h4>Mosan Cameron, <span>Executive of fedex</span></h4> </div> </div> <div className="client_review_single media"> <div className="client_image align-self-center"> <img src="/image/client/client_1.png " alt="" /> </div> <div className="client_review_text media-body"> <p> Also made from. Give may saying meat there from heaven it lights face had is gathered god dea earth light for life may itself shall whales made they're blessed whales also made from give may saying meat. There from heaven it lights face had amazing place </p> <h4>Mosan Cameron, <span>Executive of fedex</span></h4> </div> </div> <div className="client_review_single media"> <div className="client_image align-self-center"> <img src="/image/client/client_1.png" alt="" /> </div> <div className="client_review_text media-body"> <p> Also made from. Give may saying meat there from heaven it lights face had is gathered god dea earth light for life may itself shall whales made they're blessed whales also made from give may saying meat. There from heaven it lights face had amazing place </p> <h4>Mosan Cameron, <span>Executive of fedex</span></h4> </div> </div> </div> </div> </div> </div> </section> */}
+        {/*::review_part end::*/}
+
+        {/*::exclusive_item_part start::*/}
+        {/* <section className="blog_item_section blog_section section_padding"> <div className="container"> <div className="row"> <div className="col-xl-5"> <div className="section_tittle"> <p>Recent News</p> <h2>Latest From Blog</h2> </div> </div> </div> <div className="row"> <div className="col-sm-6 col-lg-4"> <div className="single_blog_item"> <div className="single_blog_image"> <img src="/image/blog/blog_1.png" alt="" /> </div> <div className="single_blog_text"> <div className="date"> <a href="#" className="date_item">Apr 06, 2019 </a> <a href="#" className="date_item"> <span>#</span> Food News </a> </div> <h3> <a href="blog.html" >Adama kind deep gatherin first over fter his great</a > </h3> <a href="#" className="btn_3" >Read More <img src="/image/icon/left_1.svg" alt="" /></a> </div> </div> </div> <div className="col-sm-6 col-lg-4"> <div className="single_blog_item"> <div className="single_blog_image"> <img src="/image/blog/blog_2.png" alt="" /> </div> <div className="single_blog_text"> <div className="date"> <a href="#" className="date_item">Apr 06, 2019 </a> <a href="#" className="date_item"> <span>#</span> Food News </a> </div> <h3> <a href="blog.html" >Adama kind deep gatherin first over fter his great</a > </h3> <a href="#" className="btn_3" >Read More <img src="/image/icon/left_1.svg" alt="" /></a> </div> </div> </div> <div className="col-sm-6 col-lg-4"> <div className="single_blog_item"> <div className="single_blog_image"> <img src="/image/blog/blog_3.png" alt="" /> </div> <div className="single_blog_text"> <div className="date"> <a href="#" className="date_item">Apr 06, 2019 </a> <a href="#" className="date_item"> <span>#</span> Food News </a> </div> <h3> <a href="blog.html" >Adama kind deep gatherin first over fter his great</a > </h3> <a href="#" className="btn_3" >Read More <img src="/image/icon/left_1.svg" alt="" /></a> </div> </div> </div> <div className="col-sm-6 col-lg-4 d-none d-sm-block d-lg-none"> <div className="single_blog_item"> <div className="single_blog_image"> <img src="/image/blog/blog_1.png" alt="" /> </div> <div className="single_blog_text"> <div className="date"> <a href="#" className="date_item">Apr 06, 2019 </a> <a href="#" className="date_item"> <span>#</span> Food News </a> </div> <h3> <a href="blog.html" >Adama kind deep gatherin first over fter his great</a > </h3> <a href="#" className="btn_3" >Read More <img src="/image/icon/left_1.svg" alt="" /></a> </div> </div> </div> </div> </div> </section> */}
+        {/*::exclusive_item_part end::*/}
+
+        {/* footer part start*/}
+        <Footer />
+        {/* footer part end*/}
+
+        {/* <Script /> */}
+      </body>
     </main>
-  )
+  );
 }
