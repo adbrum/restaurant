@@ -11,8 +11,8 @@ import { Footer } from "@/components/Footer";
 
 export default function Home() {
   return (
-    <main>
-      <body>
+    <>
+
         {/*::header part start::*/}
         <Header />
         {/* Header part end*/}
@@ -57,8 +57,8 @@ export default function Home() {
         <Footer />
         {/* footer part end*/}
 
-        {/* <Script /> */}
-      </body>
-    </main>
+        <Script />
+
+    </>
   );
 }

@@ -9,7 +9,7 @@ export const Header = () => {
             <div className="col-lg-12">
               <nav className="navbar navbar-expand-lg navbar-light">
                 <a className="navbar-brand" href="index.html">
-                  <image src="image/logo.png" alt="logo" />
+                  <img src="image/logo.png" alt="logo" />
                 </a>
                 <button
                   className="navbar-toggler"

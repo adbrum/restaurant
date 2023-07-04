@@ -28,8 +28,8 @@ export const Banner = () => {
                     </spam>
                   </p>
                   <div className="banner_btn">
-                    {/* <div className="banner_btn_iner"> <a href="#" className="btn_2" >Reservation <image src="image/icon/left_1.svg" alt="" /></a> </div> */}
-                    {/* <a href="https://www.youtube.com/watch?v=pBFQdxA-apI" className="popup-youtube video_popup"> <span><image src="image/icon/play.svg" alt="" /></span> Watch our story</a> */}
+                    {/* <div className="banner_btn_iner"> <a href="#" className="btn_2" >Reservation <img src="image/icon/left_1.svg" alt="" /></a> </div> */}
+                    {/* <a href="https://www.youtube.com/watch?v=pBFQdxA-apI" className="popup-youtube video_popup"> <span><img src="image/icon/play.svg" alt="" /></span> Watch our story</a> */}
                   </div>
                 </div>
               </div>
