@@ -20,12 +20,12 @@ export const Script = () => {
       ></script>
       {/* bootstrap js */}
       {/* <script src="/js/bootstrap.min.js"></script> */}
-      <link
+      {/* <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossOrigin="anonymous"
-      ></link>
+      ></link> */}
       {/* easing js */}
       {/* <script src="/js/jquery.magnific-popup.js"></script> */}
       <script

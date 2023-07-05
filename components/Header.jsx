@@ -3,7 +3,7 @@ import React from "react";
 export const Header = () => {
   return (
     <>
-      <header className="main_menu">
+      <div className="main_menu">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-12">
@@ -47,7 +47,7 @@ export const Header = () => {
             </div>
           </div>
         </div>
-      </header>
+      </div>
     </>
   );
 };
