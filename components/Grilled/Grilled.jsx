@@ -2,7 +2,7 @@ import React from "react";
 
 // import { Container } from './styles';
 
-const Grilled = () => {
+export const Grilled = () => {
   return (
     <>
       <div className="col-lg-5">
