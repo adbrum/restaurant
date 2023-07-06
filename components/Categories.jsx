@@ -16,7 +16,7 @@ export const Categories = () => {
           <div className="row">
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
-                <img src="/img/entradas/pao.jpg" className="mr-3" alt="..." />
+                <img src="@/image/entradas/pao.jpg" className="mr-3" alt="..." />
                 <div className="media-body align-self-center">
                   <h3>Pão</h3>
                   <p>Pão regional Alentejano</p>
@@ -25,7 +25,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/entradas/azeitonas.jpg"
+                  src="@/image/entradas/azeitonas.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -37,7 +37,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/entradas/manteiga.jpg"
+                  src="@/image/entradas/manteiga.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -51,7 +51,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/entradas/queijo_seco.jpg"
+                  src="@/image/entradas/queijo_seco.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -63,7 +63,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/entradas/torresmo.jpg"
+                  src="@/image/entradas/torresmo.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -75,7 +75,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/entradas/linguica_assada.jpg"
+                  src="@/image/entradas/linguica_assada.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -89,7 +89,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/entradas/tapas_presunto.jpg"
+                  src="@/image/entradas/tapas_presunto.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -117,7 +117,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/entradas/sopa_dia.jpg"
+                  src="@/image/entradas/sopa_dia.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -129,7 +129,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -141,7 +141,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -155,7 +155,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -164,7 +164,7 @@ export const Categories = () => {
                   <p>Bacalhau à braz</p>
                   <h5>9€ dose</h5>
                 </div>
-                {/* <div className="single_food_item media"> <img src="/img/food_menu/logo.png" className="mr-3" alt="..."/> <div className="media-body align-self-center"> <h3>Peixe 02</h3> <p>Carapaus assados c/ salada de pimentos</p> <h5>8,50€ dose</h5> </div> </div> */}
+                {/* <div className="single_food_item media"> <img src="@/image/food_menu/logo.png" className="mr-3" alt="..."/> <div className="media-body align-self-center"> <h3>Peixe 02</h3> <p>Carapaus assados c/ salada de pimentos</p> <h5>8,50€ dose</h5> </div> </div> */}
               </div>
             </div>
           </div>
@@ -184,7 +184,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/grelhados/secretos_porco.jpg"
+                  src="@/image/grelhados/secretos_porco.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -196,7 +196,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/grelhados/espetadas_secretos.jpg"
+                  src="@/image/grelhados/espetadas_secretos.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -208,7 +208,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/grelhados/lagartos_porco_preto.jpg"
+                  src="@/image/grelhados/lagartos_porco_preto.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -222,7 +222,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/grelhados/lombinhos_porco_preto.jpg"
+                  src="@/image/grelhados/lombinhos_porco_preto.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -234,7 +234,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -246,7 +246,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -260,7 +260,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -281,7 +281,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -293,7 +293,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -305,7 +305,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -319,7 +319,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -331,7 +331,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/grelhados/mista_porco.jpg"
+                  src="@/image/grelhados/mista_porco.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -343,7 +343,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -364,7 +364,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/grelhados/costeletas_borrego.jpg"
+                  src="@/image/grelhados/costeletas_borrego.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -385,7 +385,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -397,7 +397,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/grelhados/posta_novilho.jpg"
+                  src="@/image/grelhados/posta_novilho.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -411,7 +411,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -423,7 +423,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/grelhados/bife_novilho.jpg"
+                  src="@/image/grelhados/bife_novilho.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -444,7 +444,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/grelhados/febras_peru.jpg"
+                  src="@/image/grelhados/febras_peru.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -458,7 +458,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -486,7 +486,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/especialidades/migas_alentejana.jpg"
+                  src="@/image/especialidades/migas_alentejana.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -498,7 +498,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/especialidades/sopas_tomate.jpg"
+                  src="@/image/especialidades/sopas_tomate.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -510,7 +510,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/especialidades/acorda_bacalhau.jpg"
+                  src="@/image/especialidades/acorda_bacalhau.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -524,7 +524,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/especialidades/arros_bacalhau.jpg"
+                  src="@/image/especialidades/arros_bacalhau.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -536,7 +536,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/especialidades/sopas_cacao.jpg"
+                  src="@/image/especialidades/sopas_cacao.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -564,7 +564,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -576,7 +576,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -588,7 +588,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -602,7 +602,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -614,7 +614,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -626,7 +626,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -640,7 +640,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -652,7 +652,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -664,7 +664,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -678,7 +678,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -690,7 +690,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -702,7 +702,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -723,7 +723,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -735,7 +735,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -747,7 +747,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -761,7 +761,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -773,7 +773,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -801,7 +801,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/sobremesas/frutas/laranja_casa.jpg"
+                  src="@/image/sobremesas/frutas/laranja_casa.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -813,7 +813,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/sobremesas/frutas/laranja.jpg"
+                  src="@/image/sobremesas/frutas/laranja.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -825,7 +825,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/sobremesas/frutas/salada_frutas.jpg"
+                  src="@/image/sobremesas/frutas/salada_frutas.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -839,7 +839,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/sobremesas/frutas/abacaxi.jpg"
+                  src="@/image/sobremesas/frutas/abacaxi.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -851,7 +851,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/sobremesas/frutas/peras_bebedas.jpg"
+                  src="@/image/sobremesas/frutas/peras_bebedas.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -863,7 +863,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/sobremesas/frutas/melao.jpg"
+                  src="@/image/sobremesas/frutas/melao.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -884,7 +884,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/sobremesas/doces/pudim_limao.JPG"
+                  src="@/image/sobremesas/doces/pudim_limao.JPG"
                   className="mr-3"
                   alt="..."
                 />
@@ -896,7 +896,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -908,7 +908,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -922,7 +922,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/sobremesas/doces/encharcada.jpg"
+                  src="@/image/sobremesas/doces/encharcada.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -934,7 +934,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/sobremesas/doces/bolo_bolacha.jpg"
+                  src="@/image/sobremesas/doces/bolo_bolacha.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -946,7 +946,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/sobremesas/doces/pudim_flan.jpg"
+                  src="@/image/sobremesas/doces/pudim_flan.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -960,7 +960,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/sobremesas/doces/pudim_requeijao.jpg"
+                  src="@/image/sobremesas/doces/pudim_requeijao.jpg"
                   className="mr-3"
                   alt="..."
                 />
@@ -974,7 +974,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1006,7 +1006,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1018,7 +1018,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1030,7 +1030,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1044,7 +1044,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1056,7 +1056,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1068,7 +1068,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1082,7 +1082,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1094,7 +1094,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1106,7 +1106,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1120,7 +1120,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1132,7 +1132,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1144,7 +1144,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1158,7 +1158,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1170,7 +1170,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1182,7 +1182,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1196,7 +1196,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1208,7 +1208,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1220,7 +1220,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1234,7 +1234,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1246,7 +1246,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1260,7 +1260,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1272,7 +1272,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1292,7 +1292,7 @@ export const Categories = () => {
               <div className="col-sm-6 col-lg-6">
                 <div className="single_food_item media">
                   <img
-                    src="/img/food_menu/logo.png"
+                    src="@/image/food_menu/logo.png"
                     className="mr-3"
                     alt="..."
                   />
@@ -1304,7 +1304,7 @@ export const Categories = () => {
                 </div>
                 <div className="single_food_item media">
                   <img
-                    src="/img/food_menu/logo.png"
+                    src="@/image/food_menu/logo.png"
                     className="mr-3"
                     alt="..."
                   />
@@ -1318,7 +1318,7 @@ export const Categories = () => {
               <div className="col-sm-6 col-lg-6">
                 <div className="single_food_item media">
                   <img
-                    src="/img/food_menu/logo.png"
+                    src="@/image/food_menu/logo.png"
                     className="mr-3"
                     alt="..."
                   />
@@ -1330,7 +1330,7 @@ export const Categories = () => {
                 </div>
                 <div className="single_food_item media">
                   <img
-                    src="/img/food_menu/logo.png"
+                    src="@/image/food_menu/logo.png"
                     className="mr-3"
                     alt="..."
                   />
@@ -1359,7 +1359,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1371,7 +1371,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1383,7 +1383,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1397,7 +1397,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1409,7 +1409,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1421,7 +1421,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1435,7 +1435,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1447,7 +1447,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1459,7 +1459,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1473,7 +1473,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1485,7 +1485,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1513,7 +1513,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1525,7 +1525,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1539,7 +1539,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1567,7 +1567,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1579,7 +1579,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1593,7 +1593,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1605,7 +1605,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1633,7 +1633,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1645,7 +1645,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1657,7 +1657,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1671,7 +1671,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1683,7 +1683,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1695,7 +1695,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1709,7 +1709,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1721,7 +1721,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1735,7 +1735,7 @@ export const Categories = () => {
             <div className="col-sm-6 col-lg-6">
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
@@ -1747,7 +1747,7 @@ export const Categories = () => {
               </div>
               <div className="single_food_item media">
                 <img
-                  src="/img/food_menu/logo.png"
+                  src="@/image/food_menu/logo.png"
                   className="mr-3"
                   alt="..."
                 />
