@@ -10,7 +10,7 @@ import WhiteWine from "./WhiteWine/WhiteWine";
 import RoseWine from "./RoseWine/RoseWine";
 import GreenWine from "./GreenWine/GreenWine";
 import Digestive from "./Digestive/Digestive";
-import { Ementa } from "./Ementa";
+import Ementa from "./Ementa/Ementa";
 
 export const FoodMenu = () => {
   return (
