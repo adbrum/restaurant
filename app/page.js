@@ -27,7 +27,7 @@ export default function Home() {
       {/* intro_video_bg part start*/}
 
       {/* food_menu start*/}
-      <FoodMenu />
+      {/* <FoodMenu /> */}
       {/* food_menu part end*/}
 
       {/*::chefs_part start::*/}

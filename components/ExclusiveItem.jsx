@@ -14,7 +14,7 @@ export const ExclusiveItem = () => {
           <div className="col-sm-6 col-lg-4">
             <div className="single_blog_item">
               <div className="single_blog_image">
-                <img src=".//image/food_item/cozido_grao.jpg" alt="" />
+                <img src="/image/food_item/cozido_grao.jpg" alt="" />
               </div>
               <div className="single_blog_text">
                 <h3>Cozido de Grão Alentejano</h3>
@@ -24,14 +24,14 @@ export const ExclusiveItem = () => {
                   entrecosto, carne). Quando servido, acompanha sempre com sopas
                   de pão e hortelã.
                 </p>
-                {/* <a href="#" className="btn_3">Read More <img src=".//image/icon/left_2.svg" alt="" /></a> */}
+                {/* <a href="#" className="btn_3">Read More <img src="/image/icon/left_2.svg" alt="" /></a> */}
               </div>
             </div>
           </div>
           <div className="col-sm-6 col-lg-4">
             <div className="single_blog_item">
               <div className="single_blog_image">
-                <img src=".//image/food_item/acorda.jpg" alt="" />
+                <img src="/image/food_item/acorda.jpg" alt="" />
               </div>
               <div className="single_blog_text">
                 <h3>Açorda Alentejana</h3>
@@ -40,14 +40,14 @@ export const ExclusiveItem = () => {
                   sal, azeite, coentros, poejos, pimento verde, água a ferver na
                   qual se cozeu o bacalhau e um ovo escalfado.
                 </p>
-                {/* <a href="#" className="btn_3">Read More <img src=".//image/icon/left_2.svg" alt="" /></a> */}
+                {/* <a href="#" className="btn_3">Read More <img src="/image/icon/left_2.svg" alt="" /></a> */}
               </div>
             </div>
           </div>
           <div className="col-sm-6 col-lg-4">
             <div className="single_blog_item">
               <div className="single_blog_image">
-                <img src=".//image/food_item/migas.jpg" alt="" />
+                <img src="/image/food_item/migas.jpg" alt="" />
               </div>
               <div className="single_blog_text">
                 <h3>Migas à Alentejana</h3>
@@ -56,11 +56,11 @@ export const ExclusiveItem = () => {
                   humedecidos em água, em azeite e alho. Acompanham com carne de
                   porco do alguidar frita (lombo e entrecosto).
                 </p>
-                {/* <a href="#" className="btn_3">Read More <img src=".//image/icon/left_2.svg" alt="" /></a> */}
+                {/* <a href="#" className="btn_3">Read More <img src="/image/icon/left_2.svg" alt="" /></a> */}
               </div>
             </div>
           </div>
-          {/* <div className="col-sm-6 col-lg-4 d-none d-sm-block d-lg-none"> <div className="single_blog_item"> <div className="single_blog_image"> <img src=".//image/food_item/food_item_1.png" alt="" /> </div> <div className="single_blog_text"> <h3>Cremy Noodles</h3> <p> Was brean shed moveth day yielding tree yielding day were female and </p> <a href="#" className="btn_3" >Read More <img src=".//image/icon/left_2.svg" alt="" /></a> </div> </div> </div> */}
+          {/* <div className="col-sm-6 col-lg-4 d-none d-sm-block d-lg-none"> <div className="single_blog_item"> <div className="single_blog_image"> <img src="/image/food_item/food_item_1.png" alt="" /> </div> <div className="single_blog_text"> <h3>Cremy Noodles</h3> <p> Was brean shed moveth day yielding tree yielding day were female and </p> <a href="#" className="btn_3" >Read More <img src="/image/icon/left_2.svg" alt="" /></a> </div> </div> </div> */}
         </div>
       </div>
     </section>
