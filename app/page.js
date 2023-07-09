@@ -1,11 +1,11 @@
-import { Banner } from "@/components/Banner";
-import { ExclusiveItem } from "@/components/ExclusiveItem";
+import { Banner } from "@/app/components/Banner";
+import { ExclusiveItem } from "@/app/components/ExclusiveItem";
 
 import Image from "next/image";
 
-import { IntroVideo } from "@/components/IntroVideo";
-import { FoodMenu } from "@/components/FoodMenu";
-import { Owners } from "@/components/Owners";
+import { IntroVideo } from "@/app/components/IntroVideo";
+import { FoodMenu } from "@/app/components/FoodMenu";
+import { Owners } from "@/app/components/Owners";
 
 export default function Home() {
   return (

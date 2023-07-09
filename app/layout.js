@@ -1,9 +1,10 @@
 import "./globals.css";
-import "@/styles/styles.css";
+import "./styles/styles.css";
+import "./styles/themify-icons.css";
 import { Inter } from "next/font/google";
-import { Footer } from "@/components/Footer";
-import { Script } from "@/components/Scripts";
-import { Header } from "@/components/Header";
+import { Footer } from "@/app/components/Footer";
+import { Script } from "@/app/components/Scripts";
+import { Header } from "@/app/components/Header";
 
 const inter = Inter({ subsets: ["latin"] });
 
