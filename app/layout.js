@@ -17,21 +17,30 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt">
       <head>
-        {/* Required meta tags */}
         <meta charset="utf-8" />
         <meta
           name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no"
+          content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
         />
-        <title>Adega Típica 25 de Abril</title>
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-          crossOrigin="anonymous"
-        ></link>
-        <Script />
+        <meta
+          name="description"
+          content="Restaurante em Beja que oferece comida regional alentejana. Conheça a Adega Típica 25 de Abril e saboreie os pratos típicos da região."
+        />
+        <meta
+          name="keywords"
+          content="restaurante, Beja, Adega Típica 25 de Abril, comida regional, alentejana"
+        />
+        <title>Restaurante em Beja | Adega Típica 25 de Abril</title>
+
+        <link rel="icon" href="img/favicon.png" />
+
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+        <link rel="stylesheet" href="css/themify-icons.css" />
+
+        <link rel="stylesheet" href="css/style.css" />
       </head>
+      <Script />
       <body className="font-serif p-0 m-0 text-base text-lg">
         {children}
         <Header />
