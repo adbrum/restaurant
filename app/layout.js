@@ -34,11 +34,11 @@ export default function RootLayout({ children }) {
 
         <link rel="icon" href="img/favicon.png" />
 
-        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        {/* <link rel="stylesheet" href="css/bootstrap.min.css" /> */}
 
         <link rel="stylesheet" href="css/themify-icons.css" />
 
-        <link rel="stylesheet" href="css/style.css" />
+        {/* <link rel="stylesheet" href="css/style.css" /> */}
       </head>
       <Script />
       <body className="font-serif p-0 m-0 text-base text-lg">

@@ -24,7 +24,7 @@ export const Script = () => {
       ></script>
 
       {/* custom js */}
-      <script src="/js/custom.js"></script>
+      {/* <script src="/js/custom.js"></script> */}
     </>
   );
 };

@@ -40,7 +40,7 @@ export const Banner = () => {
                     experiência gastronómica única, no seu restaurante em Beja,
                     num local onde se celebra a riqueza e o encanto da cozinha
                     regional alentejana. Estamos ansiosos para recebê-lo(a) e
-                    tornar a sua visita memorável.
+                    tornar a sua visita memorável.
                   </p>
 
                   <div class="banner_btn"></div>
