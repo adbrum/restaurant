@@ -1,44 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# restaurant
 
-## Getting Started
+A restaurant website built with Next.js 13 (App Router) and Tailwind CSS. It presents the restaurant, its owners and an intro video, and a full food and drinks menu organised by category.
 
-First, run the development server:
+## Features
+
+- Home page with banner, intro video, exclusive items, categories and owners sections
+- Menu pages for appetizers, grilled dishes, specialties, dishes of the day, desserts, digestives, drinks and wines (green, red, rosé and white)
+- Shared header and footer components
+- Styling with Tailwind CSS and PostCSS
+
+## Tech stack
+
+Next.js 13.4, React 18, Tailwind CSS 3, jQuery, ESLint.
+
+## Getting started
+
+Requirements: Node.js 16.8 or later and npm or yarn.
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser. The page updates as you edit files under `app/`.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+| Command | Description |
+|---|---|
+| `npm run dev` | Start the development server |
+| `npm run build` | Create a production build |
+| `npm run start` | Serve the production build |
+| `npm run lint` | Run ESLint |
 
-## Learn More
+## Project structure
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-# restaurant
-# restaurant
-# restaurant
-# restaurant
-# restaurant
-# restaurant
-# restaurant
-# restaurant
-# test
-# restaurant
+| Path | Purpose |
+|---|---|
+| `app/page.js`, `app/layout.js` | Home page and root layout |
+| `app/components/` | Page sections (`Banner`, `Header`, `Footer`, `Owners`, `IntroVideo` and others) and one folder per menu category |
+| `app/styles/`, `app/globals.css` | Styles |
+| `public/` | Static assets |
